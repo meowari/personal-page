@@ -1,0 +1,197 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color:rgba(240, 248, 255, 0.466);
+}
+
+#welcome-text{
+    text-align: center;
+    border:solid gray;
+    color:darkolivegreen;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBCesfxgHPLc8eJrcEjsnAiXkPbJB_PYJGhMBDjxNyX1yCoqN8KiMGEQRyM4K9PY1lUwI&usqp=CAU");
+    background-repeat:none;
+    background-size:100%;
+    padding:50px;
+}
+
+/*nav*/
+
+#navbar{
+    background-color:#4f4f4f;
+    height:90px; 
+    width:100%;
+    display:flex; 
+    align-items:center; 
+    justify-content:space-between;
+}
+
+label.logo{
+    color: #8785A2;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 3.5;
+    padding: 0 35px;
+}
+nav ul{
+    display: flex;
+}
+
+li {
+    padding: 30px 60px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+li a{
+    color: #8785A2;
+    font-weight: bolder;
+}
+li a:hover{
+    color: var(--hovercolor);
+}
+
+#about{
+    font-size: 20px;
+    margin: 20px 35px;
+}
+#about p{
+    margin: 50px
+}
+#work{
+    font-size: 20px;
+    margin: 20px 35px;
+}
+
+a{
+    text-decoration: none;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px 35px;
+    gap: 35px;
+}
+#contact{
+    font-size: 20px;
+    margin: 20px 35px;
+}
+.message{
+    font-size: 28px;
+    font-weight: bold;
+}
+.button{
+    border: none;
+    outline: none;
+    border-radius: 20%;
+    height: 80px;
+    width: 135px;
+    background-color: #F7CCCC;
+    color: #8785A2;
+    font-weight: bolder;
+    font-size: 17px;
+    text-align: center;
+}
+a button:hover{
+    color: var(--hovercolor);
+}
+.sendbutton{
+    border: none;
+    outline: none;
+    border-radius: 20%;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    color: #8785A2;
+    background-color: #F7CCCC;
+    border-radius: 20%;
+    height: 50px;
+    width: 100px;
+}
+.sendbutton:hover{
+    color: var(--hovercolor);
+}
+.picture{
+    float: right;
+    margin: 10px 20px;
+    border: 10px dotted var(--hovercolor);
+    padding: 5px;
+}
+.footer{
+    background-color: #F7CCCC;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#da73b6;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h2{
+    text-align:center;
+    color:#da73b6;
+    font-size:30px;
+    border:dotted;
+    padding:10px;
+    border-radius: 40px;
+}
+
+/*home*/
+footer{
+    background-color:rgb(98, 98, 108);
+    padding:40px;
+}
+
+h1{
+    text-align:center;
+    font-size:80px;
+    margin:10px;
+}
+
+/*about*/
+img.anne{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+#contact{
+    text-align: center;
+    border:solid gray;
+    color:darkolivegreen;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url("https://t4.ftcdn.net/jpg/05/08/85/65/360_F_508856527_j47VSpWgbNbECuiOa9kSUllJBuZ2V1hF.jpg");
+    background-repeat: no-repeat;
+    background-size: 300%;
+    padding:50px;
+}
+
+/*img.icon{
+    float:left;
+    width: 150px;
+    padding:20px;
+}
+
+div.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+  }
+
+button.caption{
+    background-color:rgb(234, 207, 247);
+    border:none;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px 20px 20px;
+}*/
+
